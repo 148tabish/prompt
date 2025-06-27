@@ -1,0 +1,47 @@
+Build a touchscreen vending machine UI for a portrait display (19 inches height × 8 inches width) using react for the frontend and Express.js for the backend with dummy data.
+System Requirements
+UI runs on a portrait green background (#1C4E38) at all times.
+Use bold white (#FFFFFF) or yellow (#FFB600) text for high contrast.
+The theme colors are:
+Green: #1C4E38 (background)
+Yellow: #FFB600
+White: #FFFFFF
+Black: #000000
+Frontend Flow
+1. Welcome Page
+Green background with floating fruits and vegetables animation (decorative only).
+Centered logo placeholder (i will repalce the url for the logo ).
+Big yellow green white combination “Start Now” button.
+2. Selection Page
+Title: “What would you like today?”
+Two large buttons:
+Smoothie with good graphic images 
+Salad with good graphic images 
+3. Items Page
+Show dummy items depending on selection:
+Smoothies: Blueberry Blast, Orange Twist, Mango Magic
+Salads: Caesar Crunch, Quinoa Power, Green Detox
+Each item has:
+Name 
+Calories 
+Image placeholder
+“Customize” button
+4. Customization Page  in the cards sections
+Show add-ons (toggle or quantity selector):
+Pistachio, Almond, Chia Seeds, Protein Powder, Honey
+Option to add more than one of each.
+Button: “Add to Cart”
+5. Payment Page razorpay.
+List of selected items and add-ons.
+Total price (dummy values).
+Button: “Confirm & Pay”
+6. Processing Page
+Message: “Making your [Smoothie/Salad]...”
+Animated progress bar (fills over 3–5 seconds).
+7. Thank You Page
+Message: “Thanks! Your order is ready.”
+Optionally show animation of fruits/veggies again.
+After 5 seconds, return to Welcome screen wait until the process is done. take this from backend data.
+🚀 Backend (Express.js)
+use dummy api data.
+use your mind also to make this more good if you can make this more better please do that also.
