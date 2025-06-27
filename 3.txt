@@ -1,0 +1,51 @@
+Product Summary
+The touchscreen vending machine UI is designed for a portrait display, featuring a green background with a modern and fresh theme. It guides users through selecting and customizing their preferred smoothies or salads, processing payment, and receiving their order.
+View Design System & Hierarchy
+Visual Identity
+Modern, fresh, and healthy theme with a focus on convenience.
+Layout Style
+Centered elements with prominent calls-to-action.
+Layout & Alignment
+Container: Max-width (800px) with auto margins for centering, adapted for the 19x8 inches portrait display.
+Content Alignment: All application containers must be centered.
+Navigation & Footer: Not applicable for this vending machine UI.
+Grid System: 12-column grid with consistent alignment across all sections.
+Responsive Behavior: Maintain alignment across device sizes while adapting layout.
+Color Theme
+Primary: #1C4E38 (green)
+Secondary: #FFB600 (yellow)
+Accent: #FFFFFF (white)
+Background: #1C4E38 (green)
+Typography
+Primary font: Bold sans-serif font (e.g., Open Sans).
+Scale: 16px, 18px, 24px, 32px.
+Line Heights: 1.5 for body, 1.2 for headings.
+High contrast text colors: #FFFFFF (white) or #FFB600 (yellow).
+Visual Hierarchy
+Primary Focus: "Start Now" button on Welcome Page, "Customize" buttons on Items Page, and "Confirm & Pay" button on Payment Page.
+Secondary Elements: Title text, item names, and descriptions.
+Interactive Elements:
+Buttons: Clear affordance with consistent sizing.
+Toggle/quantity selector: For add-ons on Customization Page.
+Imagery & Photography
+Style: High-quality images of smoothies and salads.
+Sources: Curated photos from Pexels API.
+Usage: Primary use case for showcasing items.
+Core Features
+Welcome Page with floating fruits and vegetables animation and "Start Now" button.
+Selection Page with large buttons for Smoothie and Salad.
+Items Page showing dummy items with name, calories, image placeholder, and "Customize" button.
+Customization Page with add-ons (toggle or quantity selector) and "Add to Cart" button.
+Payment Page listing selected items and add-ons, total price, and "Confirm & Pay" button using Razorpay.
+Processing Page with animated progress bar.
+Thank You Page with message and optional animation, returning to Welcome screen after 5 seconds.
+Here is the minimal viable plan to build your touchscreen vending machine UI. This plan outlines the key features and design elements for a modern and user-friendly interface.
+
+What kind of capabilities are you looking for? What is the scope and detailing of the application you are looking for?
+
+To further clarify your requirements, consider the following questions:
+
+Would you like to add any specific interactive elements like filters or sorting on the Items Page?
+Do you need integration with any existing inventory management systems or platforms?
+Is there a specific part of this app that should be prioritized in the MVP?
+
